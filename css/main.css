@@ -1,0 +1,40 @@
+* {box-sizing: border-box;}
+
+.jumbotron {
+  background-image: url("../images/desk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 40px;
+  padding: 20%;
+  background-attachment: fixed;
+  background-position: center -238px;
+  text-align: center;
+}
+
+.jumbotron h1{
+color: white;
+text-align: center;
+
+}
+
+.jumbotron p {
+  color: white;
+  text-align: center;
+  font-size: 65px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #d2513c;
+    font-size: 20px;
+}
+
+img {
+  width: 200px;
+  height: 270px;
+  padding: 5px;
+  float: right;
+  border-radius: 20px;
+}
