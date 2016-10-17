@@ -35,6 +35,49 @@ img {
   width: 200px;
   height: 270px;
   padding: 5px;
+  margin-top: 40px;
   float: right;
   border-radius: 20px;
+}
+
+footer {
+  background-color: #d2513c;
+  position: absolute;
+  width: 100%;
+  height: auto;
+}
+
+footer li {
+  display: inline-block;
+  style: none;
+  padding: 2%;
+  float: right;
+}
+
+footer p {
+  float: left;
+  padding: 2%;
+}
+
+footer a, footer p {
+  vertical-align: middle;
+  color: #fff;
+
+}
+
+.img-responsive {
+  width: 100%;
+  border-radius: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+}
+
+.do container btn {
+  align-items: center;
 }
